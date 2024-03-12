@@ -29,7 +29,7 @@ struct ServiceCardView: View {
                     .font(.subheadline)
                     .fontWeight(.semibold)
 
-                Text(service.location)
+                Text(String(service.location.latitude))
                     .font(.footnote)
                     .foregroundColor(Color(.systemGray2))
 
